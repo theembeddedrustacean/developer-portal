@@ -29,7 +29,7 @@ loop {
 
 ### Interrupts
 
-The hardware notifies the CPU when an event occurs. The CPU can sleep or do other work, only waking when needed:
+The hardware notifies the CPU when an event occurs. The CPU can sleep or do other work, only waking up when needed:
 
 ```rust
 loop {
